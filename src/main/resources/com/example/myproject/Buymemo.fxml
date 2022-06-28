@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseDragged="#MouseEnterd" onMouseEntered="#MouseEnterd" onMouseExited="#MouseEnterd" onMouseMoved="#MouseEnterd" onMouseReleased="#MouseEnterd" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myproject.BuymemoController">
+   <children>
+      <Label alignment="CENTER" graphicTextGap="20.0" layoutX="164.0" layoutY="240.0" prefHeight="64.0" prefWidth="158.0" stylesheets="@style.css" text="Total Product" />
+      <Label fx:id="totalproduct" alignment="CENTER" layoutX="205.0" layoutY="324.0" prefHeight="39.0" prefWidth="77.0" />
+      <Label alignment="CENTER" graphicTextGap="20.0" layoutX="414.0" layoutY="240.0" prefHeight="64.0" prefWidth="158.0" stylesheets="@style.css" text="Cost" />
+      <Label fx:id="cost" alignment="CENTER" layoutX="455.0" layoutY="324.0" prefHeight="39.0" prefWidth="77.0" />
+      <Button layoutX="514.0" layoutY="529.0" mnemonicParsing="false" onAction="#BackClicked" text="Back" />
+      <Button layoutX="81.0" layoutY="68.0" mnemonicParsing="false" onAction="#Load" prefHeight="31.0" prefWidth="89.0" text="Load" />
+   </children>
+</AnchorPane>

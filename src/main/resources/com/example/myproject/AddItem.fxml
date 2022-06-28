@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="688.0" prefWidth="1270.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myproject.AddItemController">
+   <children>
+      <Label layoutX="544.0" layoutY="26.0" prefHeight="51.0" prefWidth="173.0" text="Add Item">
+         <font>
+            <Font name="Ebrima" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="68.0" prefHeight="22.0" prefWidth="85.0" text="From:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="from" layoutX="106.0" layoutY="107.0" prefHeight="82.0" prefWidth="330.0" />
+      <Label layoutX="107.0" layoutY="245.0" text="Description">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="389.0" layoutY="245.0" text="Quantity">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="660.0" layoutY="246.0" text="Unit Price">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="928.0" layoutY="246.0" text="Total">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="d1" layoutX="111.0" layoutY="314.0" prefHeight="38.0" prefWidth="149.0" />
+      <TextField fx:id="d2" layoutX="111.0" layoutY="377.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+      <TextField fx:id="d3" layoutX="112.0" layoutY="437.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+      <TextField fx:id="d4" layoutX="113.0" layoutY="492.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+      <TextField fx:id="d5" layoutX="114.0" layoutY="548.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+      <TextField fx:id="d6" layoutX="114.0" layoutY="598.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+      <TextField fx:id="q1" layoutX="371.0" layoutY="314.0" prefHeight="38.0" prefWidth="149.0" />
+      <TextField fx:id="q2" layoutX="371.0" layoutY="374.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+      <TextField fx:id="q3" layoutX="372.0" layoutY="434.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+      <TextField fx:id="q4" layoutX="372.0" layoutY="484.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+      <TextField fx:id="q5" layoutX="372.0" layoutY="541.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+      <TextField fx:id="q6" layoutX="372.0" layoutY="596.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+      <Button layoutX="1158.0" layoutY="341.0" mnemonicParsing="false" onAction="#BackButtonPressed" prefHeight="31.0" prefWidth="85.0" text="Back" />
+      <Label fx:id="t1" layoutX="887.0" layoutY="314.0" prefHeight="38.0" prefWidth="149.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="t2" layoutX="887.0" layoutY="374.0" prefHeight="38.0" prefWidth="149.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="t3" layoutX="888.0" layoutY="432.0" prefHeight="38.0" prefWidth="149.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="t4" layoutX="886.0" layoutY="478.0" prefHeight="38.0" prefWidth="149.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="t5" layoutX="887.0" layoutY="540.0" prefHeight="38.0" prefWidth="149.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="t6" layoutX="888.0" layoutY="598.0" prefHeight="38.0" prefWidth="149.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="1156.0" layoutY="247.0" mnemonicParsing="false" onAction="#MoreClicked" prefHeight="31.0" prefWidth="85.0" text="More" />
+      <Button layoutX="1156.0" layoutY="296.0" mnemonicParsing="false" onAction="#CreateClicked" prefHeight="31.0" prefWidth="85.0" text="Create" />
+      <TextField fx:id="u1" layoutX="630.0" layoutY="314.0" prefHeight="38.0" prefWidth="149.0" />
+      <TextField fx:id="u2" layoutX="630.0" layoutY="374.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+      <TextField fx:id="u3" layoutX="630.0" layoutY="432.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+      <TextField fx:id="u4" layoutX="630.0" layoutY="484.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+      <TextField fx:id="u5" layoutX="630.0" layoutY="541.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+      <TextField fx:id="u6" layoutX="630.0" layoutY="593.0" prefHeight="38.0" prefWidth="149.0" visible="false" />
+   </children>
+</AnchorPane>
